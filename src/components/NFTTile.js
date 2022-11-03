@@ -5,6 +5,7 @@ import {
   } from "react-router-dom";
 
 function NFTTile (data) {
+    console.log(data.data.image)
     const newTo = {
         pathname:"/nftPage/"+data.data.tokenId
     }

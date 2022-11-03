@@ -17,9 +17,10 @@ module.exports = {
     hardhat: {
       chainId: 1337
     },
+  
     goerli: {
-      url: "<YOUR_ALCHEMY_URL>",
-      accounts: [ "<YOUR_PRIVATE_KEY>" ]
+      url: "https://eth-goerli.g.alchemy.com/v2/_1v1gZH0Xve-P1-7B3GMGt2ZY8qWp0b7",
+      accounts: [ "dae49383f867d078d1bc6f234c9feec5648623de18f1b7d84226017b12033dd0" ]
     }
   },
   solidity: {
